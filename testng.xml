@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="2" verbose="1" name="Parallel Test Suite" annotations="JDK" parallel="tests">
+    
+    <test name="First Selenium Test">
+        <classes>
+            <class name="training.FirstSeleniumJavaTest"></class>
+        </classes>
+    </test>
+    
+    <test name="Wizeline Easy Test">
+        <classes>
+            <class name="training.WizelineEasyTest"></class>
+        </classes>
+    </test>
+</suite>
